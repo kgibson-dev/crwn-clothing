@@ -2,7 +2,7 @@ import Button from "../button/button.component"
 import "./product-card.styles.scss"
 import { useContext } from "react"
 import { CartContext } from "../../contexts/cart.context"
-import userEvent from "@testing-library/user-event"
+
 
 const ProductCard = ({ product }) => {
 	const { name, price, imageUrl } = product
